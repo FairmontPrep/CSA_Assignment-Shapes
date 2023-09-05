@@ -32,9 +32,9 @@ public class Circle {
     }
 
     /* COMPLETE THIS METHOD
-     * This method will return the circumfrence of the circle.
+     * This method will return the circumference of the circle.
      */
-    public double getCircumfrence() {
+    public double getCircumference() {
         // Insert code here
 
         return 0;

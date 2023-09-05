@@ -53,30 +53,30 @@ public class CircleTest {
         assertEquals(75, received);
     }
 
-    @DisplayName("getCircumfrence Test 1")
+    @DisplayName("getCircumference Test 1")
     @Test
-    void getCircumfrence_Test01() {
+    void getCircumference_Test01() {
         Circle circ = new Circle(50);
         double expected = Math.round((2 * Math.PI * 50)*100)/100;
-        double received = Math.round(circ.getCircumfrence()*100)/100;
+        double received = Math.round(circ.getCircumference()*100)/100;
         assertEquals(expected, received);
     }
 
-    @DisplayName("getCircumfrence Test 2")
+    @DisplayName("getCircumference Test 2")
     @Test
-    void getCircumfrence_Test02() {
+    void getCircumference_Test02() {
         Circle circ = new Circle(241);
         double expected = Math.round((2 * Math.PI * 241)*100)/100;
-        double received = Math.round(circ.getCircumfrence()*100)/100;
+        double received = Math.round(circ.getCircumference()*100)/100;
         assertEquals(expected, received);
     }
 
-    @DisplayName("getCircumfrence Test 3")
+    @DisplayName("getCircumference Test 3")
     @Test
-    void getCircumfrence_Test03() {
+    void getCircumference_Test03() {
         Circle circ = new Circle(378);
         double expected = Math.round((2 * Math.PI * 378)*100)/100;
-        double received = Math.round(circ.getCircumfrence()*100)/100;
+        double received = Math.round(circ.getCircumference()*100)/100;
         assertEquals(expected, received);
     }
 
